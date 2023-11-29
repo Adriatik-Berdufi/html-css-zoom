@@ -1,0 +1,45 @@
+:root {
+  --header-height: 100px;
+  --footer-height: 100px;
+}
+
+/** Reset **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+
+/** Utils **/
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/** Debug **/
+body > .debug:nth-child(odd) {
+  background-color: bisque;
+}
+.debug {
+  min-height: 100px;
+  background-color: #888;
+  padding: 2rem;
+}
