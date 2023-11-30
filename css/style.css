@@ -104,10 +104,11 @@ main{
 }
 /** Footer **/
 .footer {
-  width: 100%;
-  
+  width: 100%; 
 }
+
 .footer-container {
+  overflow: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,6 +139,7 @@ i.small {
   line-height: var(--footer-height);
   color: red;
   width: 140px;
+  max-height: var(--footer-height);
 }
 .footer-menu{
   
